@@ -1,32 +1,32 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "indices": [
-    { "name": "上证指数", "code": "sh000001", "price": 3686.17, "chg": 2.16, "amount": 953265155867 },
-    { "name": "深证成指", "code": "sz399001", "price": 11335.69, "chg": 4.22, "amount": 1084429058170 },
-    { "name": "创业板指", "code": "sz399006", "price": 2544.73, "chg": 6.40, "amount": 547099281060 },
-    { "name": "沪深300", "code": "sh000300", "price": 4101.34, "chg": 2.31, "amount": 597260470887 },
-    { "name": "中证500", "code": "sh000905", "price": 6622.03, "chg": 4.66, "amount": 364880778693 },
-    { "name": "上证50", "code": "sh000016", "price": 2808.54, "chg": 1.45, "amount": 174039477375 }
+    { "name": "上证指数", "code": "sh000001", "price": 3689.79, "chg": 0.10, "amount": 674616676507 },
+    { "name": "深证成指", "code": "sz399001", "price": 11498.77, "chg": 1.44, "amount": 789757653280 },
+    { "name": "创业板指", "code": "sz399006", "price": 2576.28, "chg": 1.24, "amount": 402806737641 },
+    { "name": "沪深300", "code": "sh000300", "price": 4115.93, "chg": 0.36, "amount": 430651787986 },
+    { "name": "中证500", "code": "sh000905", "price": 6752.62, "chg": 1.97, "amount": 271385616910 },
+    { "name": "上证50", "code": "sh000016", "price": 2808.26, "chg": -0.01, "amount": 115053481322 }
   ],
   "breadth": {
-    "upCount": 4667,
-    "downCount": 779,
-    "flatCount": 132,
-    "upRatio": "83%",
-    "upLimitCount": 123,
-    "downLimitCount": 11,
-    "amount": 2037692000000
+    "upCount": 4600,
+    "downCount": null,
+    "flatCount": null,
+    "upRatio": "约82%",
+    "upLimitCount": null,
+    "downLimitCount": null,
+    "amount": 1464375000000
   },
   "external": [
-    { "name": "纳指", "code": "IXIC", "price": null, "chg": null },
-    { "name": "标普500", "code": "SPX", "price": null, "chg": null },
-    { "name": "道指", "code": "DJI", "price": null, "chg": null },
-    { "name": "恒生指数", "code": "HSI", "price": null, "chg": null },
-    { "name": "美元指数", "code": "DXY", "price": null, "chg": null },
-    { "name": "布伦特原油", "code": "BRENT", "price": null, "chg": null }
+    { "name": "纳指", "code": "IXIC", "price": 25736.51, "chg": 1.44 },
+    { "name": "标普500", "code": "SPX", "price": 7688.62, "chg": 1.58 },
+    { "name": "道指", "code": "DJI", "price": 53356.12, "chg": 3.03 },
+    { "name": "恒生指数", "code": "HSI", "price": 24720.54, "chg": 3.35 },
+    { "name": "美元指数", "code": "DXY", "price": 101.21, "chg": -0.32 },
+    { "name": "布伦特原油", "code": "BRENT", "price": 93.84, "chg": -0.82 }
   ],
   "holdings": [
-    { "code": "605117", "name": "德业股份", "price": 68.82, "chg": 1.18 }
+    { "code": "605117", "name": "德业股份", "price": 82.13, "chg": 4.88 }
   ],
-  "geo": "暂无重大地缘事件更新。"
+  "geo": "美中期选举民主党大胜（蓝色浪潮），市场押注美伊冲突加速走向谈判，油价单日暴跌近9%；美元走弱、黄金大涨。A股当日承接外盘放量普涨，中小盘强于大盘。"
 }
