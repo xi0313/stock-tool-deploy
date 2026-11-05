@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#c0392b">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>A股选股与持仓管理</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <h1>A股选股与持仓</h1>
+    <span class="date" id="today"></span>
+  </div>
+
+  <!-- ① 选股 -->
+  <div class="page active" id="stockpool"></div>
+  <!-- ② 持仓 -->
+  <div class="page" id="holdings"></div>
+  <!-- ③ 预警 -->
+  <div class="page" id="alerts"></div>
+  <!-- ④ 大盘外围 -->
+  <div class="page" id="market"></div>
+  <!-- ⑤ 历史规律 -->
+  <div class="page" id="rules"></div>
+  <!-- ⑥ 风控 -->
+  <div class="page" id="risk"></div>
+
+  <div class="disclaimer">本工具仅供研究参考，不构成投资建议。数据来自第三方接口，可能有延迟，以交易所官方为准。市场有风险，投资需谨慎。</div>
+
+  <div class="tabbar">
+    <div class="tab active" data-page="stockpool"><span class="ico">📈</span>选股</div>
+    <div class="tab" data-page="holdings"><span class="ico">💼</span>持仓</div>
+    <div class="tab" data-page="alerts"><span class="ico">🔔</span>预警</div>
+    <div class="tab" data-page="market"><span class="ico">🌍</span>大盘</div>
+    <div class="tab" data-page="rules"><span class="ico">📅</span>规律</div>
+    <div class="tab" data-page="risk"><span class="ico">🛡️</span>风控</div>
+  </div>
+
+  <script src="js/storage.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    document.getElementById('today').textContent = new Date().toLocaleDateString('zh-CN', { month: '2-digit', day: '2-digit' });
+  </script>
+</body>
+</html>

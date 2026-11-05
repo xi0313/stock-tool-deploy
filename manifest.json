@@ -1,0 +1,15 @@
+{
+  "name": "A股选股与持仓管理",
+  "short_name": "选股持仓",
+  "description": "A股四层漏斗选股、持仓跟踪、大盘外围预警与历史规律库",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f8",
+  "theme_color": "#c0392b",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
